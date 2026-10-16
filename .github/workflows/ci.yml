@@ -12,6 +12,7 @@ concurrency:
 
 jobs:
   ci:
+    name: CI
     runs-on: ubuntu-latest
 
     # Same image tag as in compose.yaml
